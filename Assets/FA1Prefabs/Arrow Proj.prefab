@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 8150173856567879784}
   - component: {fileID: 104825287226580667}
   - component: {fileID: 9015322608298396551}
+  - component: {fileID: 6011020935896032872}
   m_Layer: 0
   m_Name: Arrow Proj
   m_TagString: Arrow
@@ -172,3 +173,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &6011020935896032872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6389530326570765072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3ff60ed25edce6478fe5eb0f5e8195b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitEffectPrefab: {fileID: 8715506991846185556, guid: 24b2b0c6c4c761e419ae13b751c78635, type: 3}
+  effectTags:
+  - Enemy
+  - NPC
+  - Crate
