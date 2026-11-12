@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3802654961677695567}
   - component: {fileID: 7370564079958438445}
   - component: {fileID: 1787179598352258700}
+  - component: {fileID: 7075001934464615346}
   m_Layer: 3
   m_Name: Player
   m_TagString: Player
@@ -291,6 +292,20 @@ MonoBehaviour:
   walkInterval: 0.5
   runInterval: 0.3
   minSpeed: 0.5
+--- !u!114 &7075001934464615346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5760392254023612278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b3111c00a6534479cc279ee3f7fb63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 374295517510833022}
+  mobileMultiplier: 15
 --- !u!1 &6201639479066417216
 GameObject:
   m_ObjectHideFlags: 0
